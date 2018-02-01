@@ -1,0 +1,29 @@
+import react from 'react'
+import ReactDOM from 'react-dom'
+class App extends React.Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            currentAddress: ''
+        }
+    }
+
+    render() {
+        return(
+            <d
+            <input type="text" class="search" placeholder="enter address here"></div>
+            <div class="buttons">
+            <button input="button">Back</button>
+        <button input="button">Forward</button>
+        </div>
+        <div class="displays">
+            <section class="backstack"></section>
+            <section class="current-display"></section>
+            <section class="forward"></section>
+        </div>
+
+        )
+    }
+
+
+}
